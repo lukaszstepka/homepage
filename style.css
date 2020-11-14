@@ -1,8 +1,15 @@
-h1{
-    color:#e23198;
+h1 {
+  color: #e23198;
 }
-p{color:#A167A5;}
-body{background:#E8D7F1;}
-section{background:#E8D7F1;}
-.naglowek{color:#279b65;}
-nav a{color:#209b49;}
+p {
+  color: #a167a5;
+}
+section {
+  background: #e8d7f1;
+}
+.naglowek {
+  color: #279b65;
+}
+nav a {
+  color: #209b49;
+}
