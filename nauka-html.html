@@ -3,70 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Postępy w nauce Frontu</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">HTML</a>
-        <a href="css.html">CSS</a>
-        <a href="javaScript.html">JS</a>
+      <nav class="navigation" id="up">
+        <a href="index.html" class="navigation__anchor">Strona główna</a>
+        <a href="nauka-html.html" class="navigation__anchor">HTML</a>
+        <a href="css.html" class="navigation__anchor">CSS</a>
+        <a href="javaScript.html" class="navigation__anchor">JS</a>
       </nav>
     </header>
     <main>
       <header>
-        <h1 id="gora">Nauka HTML</h1>
-        <img src="html.jpg" alt="grafika html" />
+        <h1 class="header">
+          HTML
+        </h1>
       </header>
 
       <section>
-        <h2 class="naglowek">Moje ulubione tagi:</h2>
-        <h3 class="naglowek">
-          h1, h2, h3<a href="#stopka">przejdź do kontaktu</a>
-        </h3>
-        <p>
-          frontendu z najaktualniejszych materiałów. W ciągu 13 tygodni dowiesz
-          się czym jest (i jak działa!) frontend. Zrozumiesz technologię,
-          <i>poznasz wszystkie potrzebne narzędzia.</i> <br />Wykonasz masę
-          zadań utrwalających wiedzę. Prawie
-          <a href="https://dzieje.pl/kalendarz-dat/1500" target="">1500</a> osób
-          zaufało nam, kupując dostęp do programu w pierwszej i drugiej
-          edycji.<br />
-          Dołączając teraz do
-          <b>"WTF: Co Ten Frontend"</b>, staniesz się częścią grona adeptów
-          Sztuki Frontendu — takich jak Ty! Będziemy się stale komunikować,<br />
-          używając narzędzi wykorzystywanych na co dzień przez programistów!
-          Nauka w grupie jest efektywniejsza niż bierne oglądanie kolejnych
-          filmików szkoleniowych.
+        <h2 class="header__header2">Hiper tekstowy język znaczników</h2>
+        <img src="html.jpg" alt="moje foto" class="image" /><br />
+        <p class="section__p">
+          Już jako dziecko nie wierzyłem w siebie, to powodowało moje
+          destrukcyjne zachowania ale i dobrą zabawę;) I tak się bawiłem przez
+          kilka długich lat i ignorowałem całyświat do okoła ponieważ nie
+          zgadzałem ssię z regułami nim rządzącymi.
+          <a href="https://dzieje.pl/kalendarz-dat/1500">1500</a>Stwierdziłem że
+          mogę pracować byle gdzie tylko szybko, poszedłem do fizycznej i dobrze
+          wówczas płatnej pracy. Wiedziałem jednak że nie będę tak pracował,
+          może do 30-stki nie wiecej.<br />
+          W wieku 24 lat podjąłem pierwsze działania żeby zmienić obecny stan
+          rzeczy, a że w radykalnych zmianach i ciężkiej pracy nad sobą miałem
+          już wprawę (ćwiczę na siłowni od 18 rż) to wydaewało mi się że wiem
+          jak to się robi. Ta strona to ( jak ja nie lubię tego słowa) pamiętnik
+          i zapis tego jak było i drogi do celu.
         </p>
       </section>
       <section>
-        <h2 class="naglowek">
-          Dzięki naszej przygodzie bez problemu samodzielnie zgłębisz dalsze
-          tajniki programowania.
+        <h2 class="header__header2">
+          Dlaczego wiedziałem że nie chce pracować fizycznie dłużej?
         </h2>
-        <h3 class="naglowek">
-          Zobacz, jaki program szkolenia dla Ciebie przygotowałem.
-        </h3>
-        <p>
-          Każdy tydzień nauki jest precyzyjnie zaplanowany, tak by po 3
-          miesiącach wysiłku zyskać solidne podstawy do dalszego rozwoju
-          <br />(bo w zawodzie programisty rozwój nigdy się nie kończy). ... i
-          to wszystko za ułamek kwoty, jakiej żądają bootcampy programistyczne!
+        <p class="section__p">
+          Tutaj górę wiął mój racjonalizm. No przecież niebędę na starość płytek
+          na zniszczonych pracą kolanach układał! Chciałem mieć pracę lepszą i
+          mniej wyczerpującą. Złe warunki atmosferyczne dzwiganie ciężkich
+          rzeczy i BHP były dalekie od ideału który sobie wymarzyłem.
         </p>
       </section>
-      <footer id="stopka">
-        A teraz najlepsze: co, jeśli się okaże, że to jednak nie dla Ciebie?<br />
-        Nie obawiaj się, masz 30 dni na decyzję i ewentualny zwrot! Jeżeli w
-        ciągu pierwszego miesiąca uznasz,<br />
-        że to szkolenie nie spełnia Twoich oczekiwań (z jakiegokolwiek powodu),
-        to oddam Ci całą wpłaconą kwotę!<br />
-        (Tak, możesz przejść przez prawie połowę programu, a potem się wycofać).
-        <a href="#gora">Przejdź na górę strony</a>
+      <footer id="footer">
+        <p class="section__footer--p">
+          Tą stronę naskrobał: Łukasz Stępka 2020 i wszystkie znakii towarowe.
+        </p>
+        <a href="#up">Przejdź na górę strony</a>
       </footer>
+      <script src="main.js"></script>
     </main>
   </body>
 </html>
