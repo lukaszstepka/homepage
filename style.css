@@ -19,6 +19,13 @@ body{
   font-size: 240%;
   margin-right: 12%;
 }
-footer{
+.footer{
   background-color: #DEC3BE;
+  padding:20px;
+}
+.section__image{
+  float: left;
+  margin-right: 5%;
+  width: 300px;
+  height: 300px;
 }
