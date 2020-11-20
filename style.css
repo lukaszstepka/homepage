@@ -29,3 +29,9 @@ main{
   width: 300px;
   height: 300px;
 }
+.list{
+  background-color: aquamarine;
+}
+.list__item{
+  list-style: lower-greek;
+}
