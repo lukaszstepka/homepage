@@ -1,0 +1,37 @@
+main{
+  width: 1000px;
+  margin:30px auto;
+  background-color: #E1DEE3;
+}
+.header {
+  color: #b9314f;
+  font-size: 180%;
+}
+.section__p {
+  color: #3A4F41;
+  font-size: 180%;
+}
+.header__header2 {
+  color:#b9314f;
+  font-size: 180%;}
+.navigation__anchor {
+  color: #D5A18E;
+  font-size: 240%;
+  margin-right: 12%;
+}
+.footer{
+  background-color: #DEC3BE;
+  padding:20px;
+}
+.section__image{
+  float: left;
+  margin-right: 5%;
+  width: 300px;
+  height: 300px;
+}
+.list{
+  background-color: aquamarine;
+}
+.list__item{
+  list-style: lower-greek;
+}
