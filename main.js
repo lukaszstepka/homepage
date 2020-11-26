@@ -12,3 +12,16 @@ function greet(name, age) {
     header__js.innerHTML = `Dzień dobry ${name}! masz ${age} lat, witaj na mojej stronie;)`;
 }
 greet(name, age);
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed`)
+    },
+    itOpereting: true,
+    levels: 357,
+    name: 'Death Star',
+    population: 10000,
+}
+const obj = document.querySelector('.obj');
+obj.innerHTML = `Dzień najlepszy bo obiektowy= ${deathStar.name}`;
