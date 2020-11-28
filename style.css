@@ -7,7 +7,7 @@ body {
   );
 }
 main {
-  width: 1000px;
+  width: 700px;
   margin: 30px auto;
   justify-content:flex-end;
 }
@@ -44,7 +44,8 @@ main {
   background-color: #1cb6b8;
   padding: 20px;
   opacity: 0.9;
-  border-radius: 20px;
+  width: 100%;
+  text-align: center;
 }
 .section__image {
   float: left;
