@@ -1,3 +1,9 @@
+html{
+  box-sizing: border-box;
+}
+*, *:after, *:before{
+  box-sizing: inherit;
+}
 body {
   background: rgb(64, 230, 232);
   background: linear-gradient(
@@ -9,7 +15,6 @@ body {
 main {
   width: 700px;
   margin: 30px auto;
-  justify-content:flex-end;
 }
 .header {
   color: #b9314f;
@@ -23,6 +28,14 @@ main {
   color: #b9314f;
   font-size: 140%;
 }
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
 .navigation__anchor {
   color: #b9314f;
   font-size: 180%;
@@ -33,13 +46,7 @@ main {
   color: #f22e59;
   /*font-weight: bold;*/
 }
-.flex{
-  flex-wrap: wrap;
-}
-.navigation--item{
-  text-align: center;
-  padding: 10px;
-}
+
 .footer {
   background-color: #1cb6b8;
   padding: 20px;
@@ -60,4 +67,17 @@ main {
 }
 .list__item {
   list-style: lower-greek;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 100%;
+}
+.grid--content-1{
+ 
+}
+.grid--content-2{
+  
+}
+@media screen (and max-width: 600px;){
+
 }

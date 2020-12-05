@@ -25,3 +25,16 @@ const deathStar = {
 }
 const obj = document.querySelector('.obj');
 obj.innerHTML = `Dzień najlepszy bo obiektowy= ${deathStar.name}`;
+
+console.log(typeof "2");
+if (2 == "2") {
+    console.log('Javascript to nie Java');
+}
+const humanOne = {
+    age: 22,
+    name: 'Stefan',
+}
+const humanTwo=29;
+if(humanOne.age < humanTwo){
+    console.log('Jestem starszy mam 29');
+}
