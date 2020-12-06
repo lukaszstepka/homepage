@@ -124,6 +124,10 @@ main {
   background: transparent;
   border: none;
 }
+.button--in--html::after{
+  background: transparent;
+  border: none;
+}
 }
 @media screen and (min-width: 600px){
 .button--in--html{
