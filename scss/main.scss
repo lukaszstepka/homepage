@@ -1,0 +1,140 @@
+html{
+    box-sizing: border-box;
+  }
+  *, *:after, *:before{
+    box-sizing: inherit;
+  }
+  body {
+    background: rgb(64, 230, 232);
+    background: linear-gradient(
+      0deg,
+      rgba(64, 230, 232, 0.8701855742296919) 18%,
+      rgba(253, 187, 45, 1) 100%
+    );
+  }
+  main {
+    width: 70%;
+    margin: 30px auto;
+  }
+  .header {
+    color: #b9314f;
+    font-size: 140%;
+  }
+  .section__p {
+    color: #3a4f41;
+    font-size: 140%;
+  }
+  .header__header2 {
+    color: #b9314f;
+    font-size: 140%;
+  }
+  .navigation{
+    justify-content: space-around;
+    /*height: 100%;*/
+    align-items: center;
+    text-align: center;
+    padding: 7%;
+  }
+  .navigation__anchor {
+    color: #b9314f;
+    font-size: 180%;
+    margin-right: 12%;
+    text-decoration: none;
+  }
+  .navigation__anchor:hover{
+    color: #f22e59;
+    /*font-weight: bold;*/
+  }
+  .section__image {
+    float: left;
+    margin-right: 5%;
+    width: 300px;
+    height: 300%;
+    border-radius: 90%;
+  }
+  .list {
+    background-color: #cef2ea;
+    border-radius: 20px;
+  }
+  .list__item {
+    list-style: lower-greek;
+  }
+  .footer {
+    background-color: #1cb6b8;
+    padding: 20px;
+    opacity: 0.9;
+    width: 100%;
+    text-align: center;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .grid--content-1{
+   
+  }
+  .grid--content-2{
+    
+  }
+  @media screen and (max-width: 600px){
+  .section__image {
+    float: left;
+    margin-right: 5%;
+    width: 70%;
+    height: 70%;
+    border-radius: 90%;
+  }
+  .navigation{
+    display: none;
+    position: fixed;
+    right: 0;
+    top:0;
+    padding-top: 15%;
+  }
+  .navigation__anchor {
+    margin-bottom: 15%;
+    margin-right: 0;
+  }
+  /* HAMBURGER MENU */
+  .klasa--z--js{
+    background: rgb(64, 230, 232);
+    background: linear-gradient(
+      0deg,
+      rgba(64, 230, 232, 0.8701855742296919) 18%,
+      rgba(253, 187, 45, 1) 100%
+    );
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+  
+  }
+  .button--position{
+    position: fixed;
+    right: 10px;
+    top:10px;
+    z-index: 1;
+    
+  }
+  /* WYGLĄD BUTTONA*/
+  .hamburger--menu--icon{
+    width: 40px;
+    height: 40px;
+  }
+  .button--in--html{
+    background: transparent;
+    border: none;
+  }
+  .button--in--html::after{
+    background: transparent;
+    border: none;
+  }
+  }
+  @media screen and (min-width: 600px){
+  .button--in--html{
+    display: none;
+  }
+  .navigation__anchor{
+    margin-right: 12%;
+  }
+  }
+  
