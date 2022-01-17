@@ -1,0 +1,14 @@
+body{
+    background-color: #6b6b6b;
+}
+.all-headers{
+    color:rgb(199, 36, 36);
+}
+.all-paragraphs{color:rgb(116, 27, 27);}
+.color-footer{
+    color: orange;
+}
+img{
+    width: auto;
+    height: 600px;
+}
