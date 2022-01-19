@@ -1,14 +1,38 @@
-body{
-    background-color: #6b6b6b;
+body {
+  background-color: #6b6b6b;
+  width: 1000px;
+  margin:auto;
 }
-.all-headers{
-    color:rgb(199, 36, 36);
+
+.article {
+    color: rgb(199, 36, 36);
+  }
+
+.article__image {
+    width: 1000px;
+    height: auto;
+  }
+
+  .article__website-name{
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 4px;
+  }
+
+  .article__week{
+    color: rgb(146, 17, 17);
+    text-align: center;
+    margin: 40px;
+  }
+
+  .article__day{
+      letter-spacing: 4px;
+  }
+.article__day-content {
+  color: rgb(116, 27, 27);
+  text-align:justify
 }
-.all-paragraphs{color:rgb(116, 27, 27);}
-.color-footer{
+
+.footer {
     color: orange;
-}
-img{
-    width: auto;
-    height: 600px;
-}
+  }
