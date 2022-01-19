@@ -1,38 +1,61 @@
 body {
-  background-color: #6b6b6b;
+  background-color: #949396;
+}
+main {
   width: 1000px;
-  margin:auto;
+  margin: auto;
+}
+
+.navigation {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.navigation__link {
+  color: #415d43;
+  font-size: 23px;
+  letter-spacing: 5px;
+  margin-left: 35px;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .article {
-    color: rgb(199, 36, 36);
-  }
+  color: #2b4570;
+}
 
 .article__image {
-    width: 1000px;
-    height: auto;
-  }
+  width: 1000px;
+  height: auto;
+}
 
-  .article__website-name{
-      font-size: 40px;
-      text-align: center;
-      letter-spacing: 4px;
-  }
+.article__website-name {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 4px;
+}
 
-  .article__week{
-    color: rgb(146, 17, 17);
-    text-align: center;
-    margin: 40px;
-  }
+.article__week {
+  color: #415d43;
+  font-size: 28px;
+  text-align: center;
+  margin: 40px;
+}
 
-  .article__day{
-      letter-spacing: 4px;
-  }
+.article__day {
+  letter-spacing: 4px;
+  font-size: 24px;
+}
 .article__day-content {
-  color: rgb(116, 27, 27);
-  text-align:justify
+  color: #415d43;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .footer {
-    color: orange;
-  }
+  color: #263a27;
+  margin: 100px;
+  text-align: center;
+}

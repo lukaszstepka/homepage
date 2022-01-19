@@ -8,38 +8,44 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka HTML</a>
-        <a href="nauka-css.html">Nauka CSS</a>
-        <a href="nauka-JS.html">Nauka JS</a>
+    <header id="strona">
+      <nav class="navigation">
+        <a class="navigation navigation__link" href="index.html"
+          >Strona główna</a
+        >
+        <a class="navigation navigation__link" href="nauka-html.html"
+          >Nauka HTML</a
+        >
+        <a class="navigation navigation__link" href="nauka-css.html"
+          >Nauka CSS</a
+        >
+        <a class="navigation navigation__link" href="nauka-JS.html">Nauka JS</a>
       </nav>
     </header>
 
     <main>
-      <header id="strona">
-        <h1 class="all-headers">Nauka HTML-a</h1>
+      <header>
+        <h1 class="all-headers article article__website-name">Nauka HTML-a</h1>
       </header>
-      <img src="droga.jpg" alt="droga w miasteczku" />
+      <img src="droga.jpg" alt="droga w miasteczku" class="article__image" />
 
       <section>
-        <h2 class="all-headers">Moje ulubione tagi</h2>
+        <h2 class="article article__week">Moje ulubione tagi</h2>
         <article>
-          <h3 class="all-headers">h1</h3>
+          <h3 class="article article__week">h1</h3>
 
-          <p class="all-paragraphs">Mój ulubiony nagłówek</p>
+          <p class="article article__day-content">Mój ulubiony nagłówek</p>
         </article>
         <article>
-          <h3 class="all-headers">1# Start dzień pierwszy</h3>
+          <h3 class="article article__day">1# Start dzień pierwszy</h3>
 
-          <p class="all-paragraphs">
+          <p class="article article__day-content">
             Dzisiaj tj. <b>5.01.22</b> zacząłem naukę frontu po raz trzeci juz i
             ostatni. Dlaczego ju trzeci? Pierwszy był przed
             <a href="https://www.szkola.org">szkołą</a> zeby zobaczyć czy mi się
             to podoba. <i>Spodobało się</i>.
           </p>
-          <p class="all-paragraphs">
+          <p class="article article__day-content">
             Drugi był po skończonej szkole niestety praca wybuch pandemii i
             późniejsza moja pomoc w kwarantannie przerwała moją naukę.
             <strong>Trzeci raz jest dopiero dwa lata po tej dacie</strong>
@@ -49,11 +55,21 @@
           </p>
         </article>
         <article>
-          <h3 class="all-headers">2# Dzień drugi <em>rozpędzamy się</em></h3>
+          <h3 class="article article__week">
+            2# Dzień drugi <em>rozpędzamy się</em>
+          </h3>
+          <p class="article article__day-content">
+            Drugi był po skończonej szkole niestety praca wybuch pandemii i
+            późniejsza moja pomoc w kwarantannie przerwała moją naukę.
+            <strong>Trzeci raz jest dopiero dwa lata po tej dacie</strong>
+            poniewaz trochę jednak uległem prokastynacji... ale miałem te duo
+            innych zajęć jak nowa praca i druga praca gdzie opiekowałem się
+            ludźmi na kwarantannie kowidowej na początku roku 2020.
+          </p>
         </article>
       </section>
 
-      <footer class="color-footer">
+      <footer class="footer">
         Mercedes nie bardzo ma jak wadę usunąć. Dlatego, dla użytkowników
         przygotował zalecenia. <a href="#strona">Góra strony</a>
       </footer>
