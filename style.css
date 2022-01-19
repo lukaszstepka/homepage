@@ -54,6 +54,11 @@ main {
   text-align: justify;
 }
 
+.article__day--jsContent{
+  color:rgb(179, 37, 37);
+  font-weight: 900;
+}
+
 .footer {
   color: #263a27;
   margin: 100px;
