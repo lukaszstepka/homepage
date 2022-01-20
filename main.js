@@ -3,6 +3,6 @@ console.log(hello);
 
 const information = 'Ten napis został dodany za pomocą JavaScript';
 
-const adding = document.querySelector('.js--added');
+const adding = document.querySelector('.article__day--jsContent');
 
 adding.innerHTML = `${hello} ---> ${information}`;
