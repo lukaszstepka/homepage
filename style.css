@@ -13,6 +13,12 @@ main {
   padding-top: 10px;
 }
 
+.navigation:hover {
+  color: #415d43;
+  background-color: seagreen;
+}
+
+
 .navigation__link {
   color: #415d43;
   font-size: 23px;
@@ -21,6 +27,12 @@ main {
   text-decoration: none;
   font-weight: 600;
 }
+
+.navigation__link:hover {
+  color: rgb(23, 128, 68);
+  background-color: #415d43;
+}
+
 
 .article {
   color: #2b4570;
@@ -55,8 +67,8 @@ main {
   text-align: justify;
 }
 
-.article__day--jsContent{
-  color:rgb(179, 37, 37);
+.article__day--jsContent {
+  color: rgb(179, 37, 37);
   font-weight: 900;
 }
 
