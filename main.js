@@ -25,17 +25,18 @@ const sey_helloArrowFunction = (my_name, age) => {
 sey_helloArrowFunction(my_name, age);
 
 const obiectHello = {
-    myAge:30,
-    myName:"Łukasz",
-    myInfo:"Cześć, mam na imię: ",
-}
+  myAge: 30,
+  myName: "Łukasz",
+  myInfo: `Cześć, mam na imię `,
+};
 
+console.log(obiectHello.myInfo);
 
+const contentObject = document.querySelector(
+  ".article__day--jsContent--Object"
+);
 
-
-
-
-
+contentObject.innerHTML = `${obiectHello.myInfo}${obiectHello.myName} i mam ${obiectHello.myAge} lat. (załadowane z obiektu)`;
 
 console.log(obiectHello.myInfo);
 console.log(obiectHello.myName);
