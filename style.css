@@ -1,5 +1,7 @@
 body {
-  background-color: #949396;
+ 
+background: rgb(255,218,167);
+background: radial-gradient(circle, rgba(255,218,167,1) 0%, rgba(182,212,249,1) 100%);
 }
 main {
   width: 1000px;
@@ -73,6 +75,11 @@ main {
   font-size: 26px;
 }
 .article__day--jsContent--Arrow {
+  color: rgb(179, 37, 37);
+  font-weight: 900;
+  font-size: 26px;
+}
+.article__day--jsContent--Object {
   color: rgb(179, 37, 37);
   font-weight: 900;
   font-size: 26px;

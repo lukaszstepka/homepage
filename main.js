@@ -23,3 +23,22 @@ const sey_helloArrowFunction = (my_name, age) => {
     adding.innerHTML = `${hello} ${my_name}  i mam  ${age} lat. To funkcja Arrow`;
 };
 sey_helloArrowFunction(my_name, age);
+
+const obiectHello = {
+    myAge:30,
+    myName:"Łukasz",
+    myInfo:"Cześć, mam na imię: ",
+}
+
+
+
+
+
+
+
+
+console.log(obiectHello.myInfo);
+console.log(obiectHello.myName);
+console.log(" i mam ");
+console.log(obiectHello.myAge);
+console.log(" lat");
